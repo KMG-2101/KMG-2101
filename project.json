@@ -1,0 +1,58 @@
+{
+  "name": "TriggerUnattended",
+  "description": "Blank Process",
+  "main": "StartJob.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.20.2]",
+    "UiPath.Mail.Activities": "[1.20.2]",
+    "UiPath.System.Activities": "[23.4.3]",
+    "UiPath.UIAutomation.Activities": "[23.4.7]",
+    "UiPath.WebAPI.Activities": "[1.16.2]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "StartJob.xaml",
+      "uniqueId": "3f664350-27c4-4079-b65c-fb692ee91efb",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
