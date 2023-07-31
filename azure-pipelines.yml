@@ -1,0 +1,6 @@
+- task: UiPathRunJob@3
+  inputs:
+    orchestratorConnection: 'Azure_Request'
+    processName: 'WC.DotNet.Quoting.1_ObjectRepository'
+    folderName: 'Shared'
+    traceLevel: 'Verbose'
